@@ -17,6 +17,7 @@ private:
     int quantity;
     double wholeSaleCost;
     double RetailPrice;
+    //Date added
 
     
 public:
@@ -35,8 +36,8 @@ public:
     std::string getTitle() const { return Title; }
     std::string getAuthor() const { return Author; }
     int getwholeSaleCost() const { return wholeSaleCost; }
-    double getRetailPrice() const { return RetailPrice() const { return price; }
-        ; }
+    double getRetailPrice() const { return RetailPrice; }
+    int
     
     //The accessor for the interator
     static int getBookCount() { return quantity; }
@@ -45,7 +46,11 @@ public:
     void setISBN(std::string m) {model = m; }
     void setTitle(std::string);
     void setRetailPrice(double);
-
+    void setAuthor(double);
+    void setPublisher(double);
+    
+    //
+    
     
     //operating overloading
 //    example
